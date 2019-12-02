@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Location Finder</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper valign-wrapper">
+      <h1 class="brand-logo center">US Location Info</h1>
+    </div>
+  </nav>
+
+  <form id='zipForm'>
+    <div class="input-field">
+      <i class="material-icons prefix">place</i>
+      <input id="userInput" type="text" placeholder='Enter Zipcode' class="validate">
+    </div>
+  </form>
+
+  <div class="container">
+    <div id="output"></div>
+  </div>
+
+  <script src='main.js'></script>
+</body>
+
+</html>

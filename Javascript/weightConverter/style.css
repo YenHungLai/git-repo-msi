@@ -1,0 +1,21 @@
+#title {
+  text-align: center;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  background: #333;
+  color: #fff;
+}
+
+.form-group {
+  margin-bottom: 30px;
+  color: white;
+}
+
+input, input:focus {
+  color: white;
+}
